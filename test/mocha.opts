@@ -1,2 +1,3 @@
 --recursive
 --require test/testing-tools-init.js
+--require @babel/register

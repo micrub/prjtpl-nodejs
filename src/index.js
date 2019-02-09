@@ -1,5 +1,11 @@
 const debug = require('debug');
 
-module.exports = {
+const sayHello = _ => "Hello guys!"
+
+console.log(sayHello())
+
+const m =  {
   d : debug
 }
+
+export default m
