@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx mocha test/**/*.spec.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/micrub/prjtpl-nodejs/issues"
   },
-  "homepage": "https://github.com/micrub/prjtpl-nodejs#readme"
+  "homepage": "https://github.com/micrub/prjtpl-nodejs#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "expect": "^24.1.0",
+    "mocha": "^5.2.0",
+    "should": "^13.2.3"
+  },
+  "dependencies": {
+    "debug": "^4.1.1"
+  }
 }
