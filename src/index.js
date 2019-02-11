@@ -2,9 +2,8 @@ const debug = require('debug');
 
 const sayHello = _ => "Hello guys!"
 
-console.log(sayHello())
-
 const m =  {
+  sayHello,
   d : debug
 }
 
